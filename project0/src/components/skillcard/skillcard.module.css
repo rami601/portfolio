@@ -1,0 +1,15 @@
+
+
+.skillCard {
+
+    height: 500px;
+    width: 660px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 1px 1px 12px gray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

@@ -1,0 +1,36 @@
+
+.skillText {
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid skyblue;
+    background-color: transparent;
+    box-shadow: 1px 1px 12px gray;
+    display: flex;
+    padding: 10px 9px;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    
+}
+
+
+.title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: cyan;
+}
+
+.subTitle {
+    font-family: 'Roboto Mono';
+    font-weight: 200;
+    font-size: .9rem;
+    padding: 5px 12px;
+}

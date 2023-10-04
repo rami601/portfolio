@@ -1,0 +1,17 @@
+
+
+.ball , .ball2{
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+    background: #121232;
+    z-index: 0;
+    border-radius: 58% 42% 25% 75% / 40% 59% 41% 60%;
+
+}
+
+.ball2 {
+    transform: translateX(900px) rotate(90deg) ;
+    margin-top: 300px;
+}

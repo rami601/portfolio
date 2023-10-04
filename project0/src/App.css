@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Noto+Sans+Arabic:wght@600&family=Poppins:wght@500&family=Roboto&family=Roboto+Mono:wght@300&family=Ubuntu:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+
+body {
+  background-color: #000022;
+  overflow-x: hidden;
+  /* background-image: url('./img/wallpaper.jpg');
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:100% 100%; */
+} 
+
+
+
+
+
+/* Target the entire scrollbar */
+::-webkit-scrollbar {
+  width: 3px; 
+  ;/* Set the width of the scrollbar */
+}
+
+/* Target the track (the area behind the scroll thumb) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the color for the track */
+}
+
+/* Target the scroll thumb */
+::-webkit-scrollbar-thumb {
+  background: cyan; 
+  border-radius: 5px;
+}
+
+/* Target the corner where the vertical and horizontal scrollbars meet */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1; /* Set the color for the corner */
+}
+
+/* Target the horizontal scrollbar */
+::-webkit-scrollbar-horizontal {
+  height: 5px; /* Set the height of the scrollbar */
+}
+
+/* Target the vertical scrollbar */
+::-webkit-scrollbar-vertical {
+  width: 5px; /* Set the width of the scrollbar */
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}

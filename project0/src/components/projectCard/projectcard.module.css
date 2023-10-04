@@ -1,0 +1,48 @@
+
+.card {
+
+    width: 330px ;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(210, 210, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    row-gap: 5px;
+    position: relative;
+}
+
+.img {
+    width: 90%;
+    margin: 0 auto;
+    top: -100px;
+    position: absolute;
+}
+
+.title {
+    color: cyan;
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top: 50%;
+}
+
+.subTitle {
+    font-size: 1rem;
+    font-family: 'Roboto Mono';
+    color: #eee;
+}
+
+.btn {
+    align-self: stretch;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    padding: .2em 1.2em;
+    border: none;
+    border-radius: 5px;
+    color: cyan;
+    background: transparent;
+    border: 3px solid cyan;
+    box-shadow: 1px 1px 5px gray;
+}
