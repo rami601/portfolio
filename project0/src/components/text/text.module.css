@@ -41,6 +41,8 @@
     align-self: center;
     word-break:keep-all;
     animation: subtitle 3s ease-in;
+    line-height: 1.7;
+
 }
 
 /* @keyframes subtitle {

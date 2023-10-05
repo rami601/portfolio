@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect} from 'react'
 import Hero from './pages/hero/Hero'
 import './App.css'
 import Navbar from './components/navbar/Navbar'
@@ -6,6 +6,10 @@ import Skill from './pages/skills/Skill'
 import Projects from './pages/projects/Projects'
 
 const App = () => {
+
+
+
+
   return (
     <div>
       <Navbar />

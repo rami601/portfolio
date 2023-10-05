@@ -26,6 +26,8 @@
     font-size: 1.3rem;
     margin-left: 20px;
     color: #d5d5d5;
+    padding: 15px;
+    align-items: center;
 }
 
 .btn {
@@ -39,7 +41,23 @@
     
 }
 
-.listItem a {
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.listItem  a{
     color: #d5d5d5;
     
+}
+
+.listItem {
+    border-bottom: 3px solid transparent;
+
+}
+
+
+.listItem a:hover {
+    border-bottom: 3px solid cyan;
+    color: cyan;
 }
